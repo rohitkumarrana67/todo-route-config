@@ -15,11 +15,7 @@
 //   activeWhen: ["/"]
 // });
 
-// registerApplication({
-//   name: "@rohit-microfrontend/footer",
-//   app: () => System.import("@rohit-microfrontend/footer"),
-//   activeWhen: ["/footer"]
-// });
+
 
 // start({
 //   urlRerouteOnly: true,
