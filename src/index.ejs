@@ -57,7 +57,9 @@
         "@rohit-microfrontend/navbar": "http://localhost:8080/rohit-microfrontend-navbar.js",
         "@rohit-microfrontend/footer": "http://localhost:8081/rohit-microfrontend-footer.js",
         "@rohit-microfrontend/todos": "http://localhost:8082/rohit-microfrontend-todos.js",
-        "@rohit-microfrontend/notes": "http://localhost:8083/rohit-microfrontend-notes.js"
+        "@rohit-microfrontend/notes": "http://localhost:8083/rohit-microfrontend-notes.js",
+        "@rohit-microfrontend/landing": "http://localhost:8084/rohit-microfrontend-landing.js"
+
       }
     }
   </script>
@@ -86,6 +88,9 @@
       </nav>
 
       <div class="main-content">
+        <route path="microfrontend">
+          <application name="@rohit-microfrontend/landing"></application>
+        </route>
         <route path="todos">
           <application name="@rohit-microfrontend/todos"></application>
         </route>

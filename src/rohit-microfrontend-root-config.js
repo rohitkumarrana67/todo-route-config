@@ -22,12 +22,14 @@
 // });
 
 
-import { registerApplication, start } from 'single-spa';
+import { registerApplication, start} from 'single-spa';
 import {
   constructApplications,
   constructRoutes,
   constructLayoutEngine,
 } from 'single-spa-layout';
+
+
 const routes = constructRoutes(document.querySelector('#single-spa-layout'));
 const applications = constructApplications({
   routes,
